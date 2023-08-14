@@ -1,8 +1,9 @@
 package Encapsulation;
 
+import DDDAbolish.Pet;
 import polymorphism.Canine;
 
-public class Dog extends Canine {
+public class Dog extends Canine implements Pet {
     private int size;
 
     public int getSize(){
@@ -26,5 +27,20 @@ public class Dog extends Canine {
     @Override
     public void roam() {
         System.out.println("Dog roams.");
+    }
+
+    @Override
+    public void eat(){
+        System.out.println("Dog feeds on bones and meat.");
+    }
+
+    @Override
+    public void beFriendly() {
+        System.out.println("The dog must be friendlier.");
+    }
+
+    @Override
+    public void play() {
+        System.out.println("The dog must play with it's boss.");
     }
 }

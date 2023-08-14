@@ -1,5 +1,7 @@
+import Encapsulation.Cat;
 import Encapsulation.Dog;
 import polymorphism.MakeCanine;
+import polymorphism.MyAnimalList;
 
 public class Main {
     public static void main(String[] args) {
@@ -20,6 +22,14 @@ public class Main {
 //        test polymorphism
         MakeCanine makeCanine = new MakeCanine();
         makeCanine.go();
+
+//        test polymorphism 2
+        MyAnimalList animalList = new MyAnimalList();
+        animalList.add(new Dog());
+        animalList.add(new Cat());
+
+//        test interfaces
+        dog2.play();
 
     }
 }
