@@ -1,7 +1,10 @@
 import Encapsulation.Dog;
+import polymorphism.MakeCanine;
 
 public class Main {
     public static void main(String[] args) {
+
+//        test the encapsulation
         Dog dog = new Dog();
         dog.setSize(70);
 
@@ -13,6 +16,10 @@ public class Main {
 
         System.out.println("\n For the second dog: ");
         dog2.bark();
+
+//        test polymorphism
+        MakeCanine makeCanine = new MakeCanine();
+        makeCanine.go();
 
     }
 }

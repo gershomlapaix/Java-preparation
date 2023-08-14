@@ -1,6 +1,8 @@
 package Encapsulation;
 
-public class Dog {
+import polymorphism.Canine;
+
+public class Dog extends Canine {
     private int size;
 
     public int getSize(){
@@ -19,5 +21,10 @@ public class Dog {
         }else {
             System.out.println("Yip yip!!");
         }
+    }
+
+    @Override
+    public void roam() {
+        System.out.println("Dog roams.");
     }
 }
