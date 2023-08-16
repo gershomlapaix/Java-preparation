@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2e6be93-5cf8-4e83-8c6d-99d740929c3c" name="Changes" comment="file handling project">
-      <change afterPath="$PROJECT_DIR$/FileHandling/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FileHandling/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FileHandling/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FileHandling/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FileHandling/FileHandling.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FileHandling/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Preparation.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Filehandling/Filehandling/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Filehandling/Filehandling/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +19,9 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/FileHandling" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Filehandling" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -52,8 +44,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Administrator/Downloads/Lapaix/Preparation",
+    "git-widget-placeholder": "<unknown>",
+    "last_opened_file_path": "C:/Users/Administrator/Downloads/Lapaix/Preparation/Filehandling",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
@@ -168,7 +160,23 @@
       <option name="project" value="LOCAL" />
       <updated>1692169792145</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="file handling project">
+      <option name="closed" value="true" />
+      <created>1692170440629</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1692170440629</updated>
+    </task>
+    <task id="LOCAL-00011" summary="file handling project">
+      <option name="closed" value="true" />
+      <created>1692170484239</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1692170484239</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
