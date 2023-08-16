@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2e6be93-5cf8-4e83-8c6d-99d740929c3c" name="Changes" comment="file handling project">
-      <change afterPath="$PROJECT_DIR$/Filehandling/Filehandling/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Filehandling/Filehandling/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="a2e6be93-5cf8-4e83-8c6d-99d740929c3c" name="Changes" comment="file handling project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,9 +16,23 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Filehandling" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "gershomlapaix"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="f2710b4a-93b7-49fd-b25d-8b477dc9a3ea" />
+        <option name="url" value="https://github.com/gershomlapaix/Java-preparation.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -44,8 +55,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "<unknown>",
-    "last_opened_file_path": "C:/Users/Administrator/Downloads/Lapaix/Preparation/Filehandling",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Administrator/Downloads/Lapaix/Preparation",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
