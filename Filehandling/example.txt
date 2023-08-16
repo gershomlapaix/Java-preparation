@@ -1,2 +1,2 @@
-Here is file handling in java.
-Every Java developer should know.
+Hello, bufferedWriter!
+Hello, bufferedWriter!
