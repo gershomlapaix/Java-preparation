@@ -1,3 +1,5 @@
+// This class describes the attributes and behaviors of the student
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,21 +14,22 @@ public class Student {
         subjects = new ArrayList<>();
     }
 
-//    add subjects
+//    A method to assign subjects to the student
     public void addSubject(Subject subject){
         subjects.add(subject);
     }
 
-//   getters and setters
+//   Get all subjects of this student
     public List<Subject> getSubjects(){
         return subjects;
     }
 
-// get names
+// Get the name of student
     public String getName(){
         return name;
     }
 
+//    Get a card id
     public String getCardId(){
         return cardId;
     }

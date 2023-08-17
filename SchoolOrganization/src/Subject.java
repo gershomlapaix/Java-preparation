@@ -1,3 +1,4 @@
+//This class identifies the structure of a subject
 public class Subject {
     private String name;
 

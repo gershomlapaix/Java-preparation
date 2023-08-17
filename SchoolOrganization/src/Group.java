@@ -1,3 +1,5 @@
+// A class representing the structure of a group in the class
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,6 +9,7 @@ public class Group {
     private int maxStudents;
     private List<Student> students;
 
+//    constructor
     public Group(List<Subject> subjects, int minStudents, int maxStudents){
         this.subjects = subjects;
         this.minStudents = minStudents;
@@ -14,18 +17,17 @@ public class Group {
         students = new ArrayList<>();
     }
 
-//    canAddStudent method
+//    A method to check if it is still possible to add students in a group
     public boolean canAddStudent(){
         return students.size() < maxStudents;
     }
 
-//    add a student to the group
+//    A method to add students in a group
     public void addStudent(Student student){
         students.add(student);
     }
 
-//    get all students in a group
-
+//    A method to get all students in a group
     public List<Student> getStudents() {
         return students;
     }
