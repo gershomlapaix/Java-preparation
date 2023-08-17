@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Group {
-    private List<Subject> subjects;
+    private List<Subject> subjects;    // group's specific subjects
     private int minStudents;
     private int maxStudents;
     private List<Student> students;
@@ -27,8 +27,25 @@ public class Group {
         students.add(student);
     }
 
-//    A method to get all students in a group
+//    A getter method to get all students in a group
     public List<Student> getStudents() {
         return students;
+    }
+
+//    A getter method to get all subjects
+    public List<Subject> getSubjects() {
+        return subjects;
+    }
+
+//    getter for maximum students
+
+    public int getMaxStudents() {
+        return maxStudents;
+    }
+
+//    getter for minimum students
+
+    public int getMinStudents() {
+        return minStudents;
     }
 }
