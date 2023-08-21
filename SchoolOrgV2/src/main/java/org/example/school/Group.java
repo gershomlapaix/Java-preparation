@@ -1,4 +1,4 @@
-package org.example;// A class representing the structure of a group in the class
+package org.example.school;// A class representing the structure of a group in the class
 
 import java.util.ArrayList;
 import java.util.List;

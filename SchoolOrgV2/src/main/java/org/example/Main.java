@@ -1,5 +1,10 @@
 package org.example;
 
+import org.example.school.Group;
+import org.example.school.Student;
+import org.example.school.Subject;
+import org.example.school.TheClass;
+
 import java.util.List;
 
 public class Main {

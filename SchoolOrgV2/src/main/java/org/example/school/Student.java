@@ -1,4 +1,4 @@
-package org.example;// This class describes the attributes and behaviors of the student
+package org.example.school;// This class describes the attributes and behaviors of the student
 
 import java.util.ArrayList;
 import java.util.List;

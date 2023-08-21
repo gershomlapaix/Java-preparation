@@ -1,4 +1,4 @@
-package org.example;
+package org.example.school;
 
 //This class identifies the structure of a subject
 public class Subject {
