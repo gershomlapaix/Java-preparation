@@ -8,5 +8,6 @@ public class JukeBox {
 
 //        Now sort the songs
         Collections.sort(songList);
+        System.out.println("Sorted: "+ songList);
     }
 }

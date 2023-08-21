@@ -1,5 +1,8 @@
 // A class on which to carry out collection operations
-public class Song {
+
+// It is not possible to sort the objects
+// For sorting to be possible then, we implement the comparable method
+public class Song implements Comparable<Song> {
 
 //    properties
     private String title;
@@ -42,5 +45,11 @@ public class Song {
 
     public String toString(){
         return title;
+    }
+
+//    this method will help to sort the songs, based on their titles
+    @Override
+    public int compareTo(Song s) {
+        return title.compareTo(s.getTitle());
     }
 }
