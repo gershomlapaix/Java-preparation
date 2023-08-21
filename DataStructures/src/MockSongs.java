@@ -6,6 +6,7 @@ public class MockSongs {
     public static List<Song> getSongStrings(){
         List<Song> songs = new ArrayList<>();
 
+//        adding songs to the list
         songs.add(new Song("somersault", "zero 7", 147));
         songs.add(new Song("cassidy", "grateful dead", 158));
         songs.add(new Song("$10", "hitchhiker", 140));
