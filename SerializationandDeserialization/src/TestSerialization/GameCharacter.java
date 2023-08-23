@@ -15,7 +15,7 @@ public class GameCharacter implements Serializable {
         public int getPower() {
             return power;
         }
-        
+
         public String getType() {
             return type;
         }
