@@ -1,4 +1,5 @@
 import TestSerialization.Duck;
+import TestSerialization.GameCharacter;
 import TestSerialization.Pond;
 import TestSerialization.Square;
 
@@ -6,6 +7,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+import java.util.Arrays;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
@@ -63,5 +65,10 @@ public class Main {
         }catch(Exception ex){
             ex.printStackTrace();
         }
+
+
+//        NOT YOUR CONCERN BUT MINE
+        String[] weapons = {"Arrows and spears","SwissKnife"};
+        GameCharacter gameCharacter = new GameCharacter(32, "jjj", weapons);
         }
 }
